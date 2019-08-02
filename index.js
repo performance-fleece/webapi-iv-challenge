@@ -1,6 +1,7 @@
 // code away!
 require('dotenv').config();
-const server = require('./server.js');
+const server = require('../webapi-iv-challenge/server.js');
+// const server = require('./server.js');
 
 const port = process.env.PORT || 5000;
 
